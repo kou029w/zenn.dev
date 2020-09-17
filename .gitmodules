@@ -1,0 +1,3 @@
+[submodule "csb-jp.github.io"]
+	path = csb-jp.github.io
+	url = git@github.com:csb-jp/csb-jp.github.io.git
