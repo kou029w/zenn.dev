@@ -1,0 +1,14 @@
+{
+  "name": "@kou029w/zenn.dev",
+  "version": "1.0.0",
+  "main": "README.md",
+  "repository": "git@github.com:kou029w/zenn.dev.git",
+  "author": "Kohei Watanabe <kou029w@gmail.com>",
+  "license": "CC0-1.0",
+  "scripts": {
+    "dev": "zenn preview"
+  },
+  "devDependencies": {
+    "zenn-cli": "latest"
+  }
+}
