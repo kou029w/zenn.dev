@@ -7,6 +7,7 @@ published: true
 ---
 
 この記事は [CHIRIMEN Open Hardware Advent Calendar 2020](https://qiita.com/advent-calendar/2020/chirimen_oh) 2 日目の記事です。
+[CHIRIMEN チュートリアルの中の記事](https://tutorial.chirimen.org/raspi/nodejs)を一部加筆修正しました。
 
 ## 概要
 
