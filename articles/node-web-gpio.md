@@ -6,6 +6,8 @@ type: tech
 published: true
 ---
 
+この記事は [CHIRIMEN Open Hardware Advent Calendar 2020](https://qiita.com/advent-calendar/2020/chirimen_oh) 2 日目の記事です。
+
 ## 概要
 
 Raspberry Pi の Node.js から Web GPIO API と Web I2C API を扱う方法を説明します。
