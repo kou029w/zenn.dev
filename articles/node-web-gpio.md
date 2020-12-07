@@ -11,15 +11,11 @@ published: true
 
 ## 概要
 
-Raspberry Pi の Node.js から Web GPIO API と Web I2C API を扱う方法を説明します。
+Raspberry Pi の Node.js^[[Node.js](https://nodejs.org/) は、オープンソース・クロスプラットフォームな JavaScript 実行環境です。
+[パッケージマネージャー npm](https://www.npmjs.com/) を利用して膨大なパッケージにアクセスでき、IoT プロトタイピングだけでなく幅広いアプリケーションを作るために使われています。]から Web GPIO API と Web I2C API を扱う方法を説明します。
 
 :::message
 [Web GPIO API](http://browserobo.github.io/WebGPIO/)/[Web I2C API](http://browserobo.github.io/WebI2C/) とは [W3C の Browsers and Robotics コミュニティグループ](https://www.w3.org/community/browserobo/)で標準化に向けての検討されている、JavaScript で Web アプリから電子パーツを直接制御できる低レベルハードウェア制御 API です。
-:::
-
-:::message
-[Node.js](https://nodejs.org/) は、オープンソース・クロスプラットフォームな JavaScript 実行環境です。
-[パッケージマネージャー npm](https://www.npmjs.com/) を利用して膨大なパッケージにアクセスでき、IoT プロトタイピングだけでなく幅広いアプリケーションを作るために使われています。
 :::
 
 ## 準備
