@@ -181,3 +181,7 @@ sudo /opt/polycosm/polycosm_boot.sh aws aws
 
 以上です。
 この記事では Mozilla Hubs のバックエンドサーバー Reticulum のカスタマイズ手順を紹介しました。Hubs Cloud の全体構成や Reticulum の構成など触れなかった部分についてはまた別の機会にでも書きたいと思います。
+
+---
+
+[GitHub で編集する](https://github.com/kou029w/zenn.dev/edit/master/articles/hubs-custom-reticulum.md)

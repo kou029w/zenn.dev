@@ -162,3 +162,7 @@ CHIRIMEN ブラウザー版での API の差異をまとめると下記とのお
 
 以上です。
 この記事では、Raspberry Pi の Node.js から Web GPIO API と Web I2C API を扱う方法を説明しました。
+
+---
+
+[GitHub で編集する](https://github.com/kou029w/zenn.dev/edit/master/articles/node-web-gpio.md)
