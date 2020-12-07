@@ -141,7 +141,7 @@ hab pkg upload --channel stable results/kou029w-reticulum-1.0.1-20201029030558-x
 
 Hubs Cloud の構築完了後、それぞれの EC2 インスタンスに対して繰り返し下記の作業を実施します。
 
-## SSH でアクセス
+### SSH でアクセス
 
 [管理コンソールから [Server Access] を選択すると、アクセスするための 2 要素認証のための情報が得られます。](https://hubs.mozilla.com/docs/hubs-cloud-accessing-servers.html)
 
@@ -151,7 +151,7 @@ ssh -i <key file> ubuntu@<host name>
 
 インスタンス名は、AWS マネジメントコンソールから確認できます。
 
-## Chef Habitat パッケージのインストールと起動スクリプトの修正
+### Chef Habitat パッケージのインストールと起動スクリプトの修正
 
 以降の作業は SSH で EC2 インスタンスにアクセスした後の作業の実際のコマンドとその説明です。
 
