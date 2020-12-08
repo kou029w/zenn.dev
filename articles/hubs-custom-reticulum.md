@@ -84,10 +84,10 @@ export PERMS_KEY="-----BEGIN RSA PRIVATE KEY-----\nMIIEpgIBAAKCAQEA3RY0qLmdthY6Q
 ## Chef Habitat パッケージの作成
 
 Reticulum のカスタマイズを終えたら、Hubs Cloud にデプロイするための Chef Habitat パッケージを作成します。
-[Chef Habitat CLI](https://www.habitat.sh/docs/habitat-cli/) を利用してパッケージを作成し、 [Chef Habitat Builder](https://bldr.habitat.sh/) にデプロイします。
-Chef Habitat CLI をインストールするには環境に合わせた[Chef Habitat CLI のインストール方法](https://www.habitat.sh/docs/install-habitat/)を参照してください。
+[Chef Habitat CLI](https://www.habitat.sh/docs/habitat-cli/) を利用してパッケージを作成し、[Chef Habitat Builder](https://bldr.habitat.sh/) にデプロイします。
+Chef Habitat CLI をインストールするには環境に合わせた [Chef Habitat CLI のインストール方法](https://www.habitat.sh/docs/install-habitat/)を参照してください。
 
-まず、[Chef Habitat Builder](https://bldr.habitat.sh/) にサインインします。
+まず、Chef Habitat Builder にサインインします。
 アカウントの作成は、[GitHub アカウントを使ったサインインページ](https://bldr.habitat.sh/#/sign-in)にアクセスして行います。
 
 次に、`hab setup` コマンドで Builder の認証トークンを指定したり、デフォルトの Origin を指定したりします。
