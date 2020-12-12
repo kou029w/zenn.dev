@@ -34,7 +34,7 @@ Raspberry Pi の Node.js^[[Node.js](https://nodejs.org/) は、オープンソ�
 ターミナルを起動して以下のコマンドを実行します。
 
 ```sh
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 ```
 
 ```sh
