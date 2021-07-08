@@ -153,7 +153,9 @@ ssh -i <key file> ubuntu@<host name>
 
 ### Chef Habitat パッケージのインストールと起動スクリプトの修正
 
-以降の作業は SSH で EC2 インスタンスにアクセスした後の作業の実際のコマンドとその説明です。
+以降の作業は SSH で EC2 インスタンスにアクセスした後の作業の実際のコマンドとその説明です[^1]。
+
+[^1]: 常時起動 (お金がかかる…) で運用する想定で手順を書いており、いくつか Hubs Cloud のデフォルトの挙動 (CloudFormation テンプレート内に宣言されているものなど) によってインスタンスの内部が初期化されうるという問題があります。[既知の問題](https://github.com/kou029w/zenn.dev/labels/articles%2Fhubs-custom-reticulum)を参照してください。
 
 ```shell
 # 稼働中のサービスを停止
