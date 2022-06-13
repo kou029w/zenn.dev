@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-const assert = require("assert");
 const path = require("path");
 const fs = require("fs/promises");
 const sidebars = require("../csb-jp.github.io/sidebars.js");
@@ -14,7 +13,7 @@ function flatten(object) {
 }
 
 async function main() {
-  const mdFiles = [];
+  let chapter = 1;
 
   for (const id of flatten(sidebars)) {
     const file = path.resolve(docsPath, `${id}.md`);
@@ -23,12 +22,11 @@ async function main() {
     } catch {
       continue;
     }
-    mdFiles.push(file);
-  }
-
-  for (const [i, file] of mdFiles.entries()) {
-    const chapter = i + 1;
-    await fs.copyFile(file, path.resolve(bookPath, `${chapter}.md`));
+    await fs.copyFile(
+      file,
+      path.resolve(bookPath, `${chapter}.${id.replaceAll("/", "-")}.md`)
+    );
+    chapter += 1;
   }
 }
 
