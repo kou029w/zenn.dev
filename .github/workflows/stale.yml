@@ -11,9 +11,3 @@ jobs:
         with:
           stale-issue-message: このIssueは最終更新日から365日以上経過しています。
           days-before-stale: 365
-      - name: Reactivation
-        run: |
-          gh workflow disable --repo "${GITHUB_REPOSITORY}" "${GITHUB_WORKFLOW}"
-          gh workflow enable --repo "${GITHUB_REPOSITORY}" "${GITHUB_WORKFLOW}"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
