@@ -7,7 +7,7 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v4
+      - uses: actions/stale@v9
         with:
           stale-issue-message: このIssueは最終更新日から365日以上経過しています。
           days-before-stale: 365
