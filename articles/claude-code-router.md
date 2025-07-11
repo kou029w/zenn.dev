@@ -86,7 +86,7 @@ $ ccr code
 
 ## おわりに
 
-Claude Code Router、Gemini API の他にも Ollama など OpenAI 互換 API であれば自由に使えるようです。
+Claude Code Router、Gemini API の他にも Ollama など OpenAI 互換 API であれば自由に使えます。
 実用的には Claude API の品質にはまだ及ばないものの Claude Code をカスタマイズするアイデアの一つとして面白いなーと思いました。
 
 確認したバージョン:
