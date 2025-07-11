@@ -97,3 +97,5 @@ $ claude --version
 $ ccr -v
 claude-code-router version: 1.0.15
 ```
+
+参考: https://egoist.dev/claude-code-free
