@@ -1,6 +1,6 @@
 ---
-title: Claude APIを使わず無料でClaude Codeを使う
-emoji: 🤖
+title: Claude APIを使わず無料でClaude Codeを使う方法
+emoji: 🎋
 topics:
   - claude
   - claudecode
